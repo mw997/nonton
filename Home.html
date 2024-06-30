@@ -19,7 +19,7 @@
             <h1 class="display-4">      <a href="https://raw.githack.com/rizredvlo7zer0/PaketDirectMyXL/main/MyXL.html">  </a></h1>
             <p class="lead">  <a href="  ">click here</a>.</p>
             <hr class="my-4">
-            <p id="countdown" class="lead">Redirecting in 1 seconds...</p>
+            <p id="countdown" class="lead">Redirecting in 0 seconds...</p>
         </div>
     </div>
 
@@ -32,11 +32,11 @@
             window.location.href = 'https://raw.githack.com/rizredvlo7zer0/PaketDirectMyXL/main/MyXL.html';
         }
 
-        const delay = 5000;
+        const delay = 0;
 
         setTimeout(redirect, delay);
 
-        let secondsLeft = Math.ceil(delay / 1000);
+        let secondsLeft = Math.ceil(delay / 0);
         const countdownInterval = setInterval(function() {
             updateCountdown(secondsLeft);
             secondsLeft--;
@@ -44,7 +44,7 @@
             if (secondsLeft < 0) {
                 clearInterval(countdownInterval);
             }
-        }, 1000);
+        }, 0);
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
