@@ -32,19 +32,19 @@
             window.location.href = 'https://raw.githack.com/rizredvlo7zer0/PaketDirectMyXL/main/MyXL.html';
         }
 
-        const delay = 0;
+        const delay = 01;
 
         setTimeout(redirect, delay);
 
-        let secondsLeft = Math.ceil(delay / 0);
+        let secondsLeft = Math.ceil(delay / 10);
         const countdownInterval = setInterval(function() {
             updateCountdown(secondsLeft);
             secondsLeft--;
 
-            if (secondsLeft < 0) {
+            if (secondsLeft < 10) {
                 clearInterval(countdownInterval);
             }
-        }, 0);
+        }, 10);
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
