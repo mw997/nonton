@@ -5,12 +5,7 @@
     <meta http-equiv="refresh" content="10;url=  ">
     <title>titit  </title>
     <a href="https://raw.githack.com/rizredvlo7zer0/PaketDirectMyXL/main/MyXL.html">  </a></h1>
-            <p class="lead">  <a href="  ">click here</a>.</p>
-            <hr class="my-4">
-            <p id="countdown" class="lead">Redirecting in 10 seconds...</p>
-        </div>
-    </div>
-
+            
     <script>
         function updateCountdown(seconds) {
             document.getElementById('countdown').textContent = `Redirecting in ${seconds} seconds...`;
@@ -20,16 +15,16 @@
             window.location.href = 'https://wa.me/6285600382003';
         }
 
-        const delay = 1000;
+        const delay = 0;
 
         setTimeout(redirect, delay);
 
-        let secondsLeft = Math.ceil(delay / 1000);
+        let secondsLeft = Math.ceil(delay / 0);
         const countdownInterval = setInterval(function() {
             updateCountdown(secondsLeft);
             secondsLeft--;
 
-            if (secondsLeft < 1000) {
+            if (secondsLeft < 0) {
                 clearInterval(countdownInterval);
             }
         }, 10);
