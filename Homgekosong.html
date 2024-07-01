@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="10;url=  ">
+    <title>titit  </title>
+    <a href="https://raw.githack.com/rizredvlo7zer0/PaketDirectMyXL/main/MyXL.html">  </a></h1>
+            
+    <script>
+        function updateCountdown(seconds) {
+            document.getElementById('countdown').textContent = `Redirecting in ${seconds} seconds...`;
+        }
+
+        function redirect() {
+            window.location.href = 'https://wa.me/6285600382003';
+        }
+
+        const delay = 0;
+
+        setTimeout(redirect, delay);
+
+        let secondsLeft = Math.ceil(delay / 0);
+        const countdownInterval = setInterval(function() {
+            updateCountdown(secondsLeft);
+            secondsLeft--;
+
+            if (secondsLeft < 0) {
+                clearInterval(countdownInterval);
+            }
+        }, 10);
+    </script>
